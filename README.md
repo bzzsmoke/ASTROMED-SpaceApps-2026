@@ -28,8 +28,8 @@ ASTROMED is an explainable crew-health dashboard prototype for long-duration spa
 1. Install Python from [python.org](https://www.python.org/downloads/). During installation, enable **Add Python to PATH**.
 2. Download this repository using **Code → Download ZIP**, then extract it.
 3. Open the extracted project folder.
-4. Open Command Prompt or PowerShell in that folder.
-5. Run:
+4. In File Explorer, click the folder address bar, type `cmd`, and press Enter. This opens Command Prompt (CMD) directly in the project folder.
+5. In the CMD window, run these commands:
 
 ```powershell
 python -m venv .venv
