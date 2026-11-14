@@ -31,15 +31,14 @@ ASTROMED is an explainable crew-health dashboard prototype for long-duration spa
 4. In File Explorer, click the folder address bar, type `cmd`, and press Enter. This opens Command Prompt (CMD) directly in the project folder.
 5. In the CMD window, run these commands:
 
-```powershell
+```cmd
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python main.py
 ```
 
-If PowerShell blocks activation, use Command Prompt and run `.venv\Scripts\activate.bat` instead.
 
 You can also double-click `start.bat` from File Explorer; it installs the requirements and starts the app.
 
